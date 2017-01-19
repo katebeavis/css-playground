@@ -1,0 +1,166 @@
+body {
+  background: #87CEFA;
+}
+
+.box {
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-top: 8%;
+  width: 600px;
+  height: 420px;
+  background: none;
+}
+
+.head {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background-color: #DB8C44;
+  border-radius: 50%;
+  z-index: 5;
+}
+
+.head-copy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #DB8C44;
+  border-radius: 50%;
+  z-index: 5;
+}
+
+.hat {
+  width: 50%;
+  height: 60%;
+  top: -45%;
+  right: -2%;
+  position: absolute;
+  background: #ffea01;
+  z-index: 3;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+  transform: rotate(20deg)
+}
+.ear-left {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  top: -5%;
+  background: #DB8C44;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.ear-right {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  top: -5%;
+  left: 60%;
+  background: #DB8C44;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.inner-ear {
+  position: absolute;
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  background: pink;
+}
+
+.eye-left {
+  position: absolute;
+  background: #1c2f2f;
+  width: 5%;
+  height: 5%;
+  top: 50%;
+  left: 35%;
+  border-radius: 50%;
+  z-index: 5;
+}
+
+.eye-right {
+  position: absolute;
+  background: #1c2f2f;
+  width: 5%;
+  height: 5%;
+  top: 50%;
+  right: 35%;
+  border-radius: 50%;
+  z-index: 5
+}
+
+.pupil {
+  position: absolute;
+  width: 15%;
+  height: 15%;
+  top: 30%;
+  left: 60%;
+  border-radius: 50%;
+  background: white;
+}
+
+.snout {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  top: 55%;
+  left: 37.5%;
+  border-radius: 50%;
+  background: #ffe0bd;
+  z-index: 5;
+}
+
+.nose {
+  position: absolute;
+  width: 20%;
+  height: 15%;
+  top: 20%;
+  left: 42.5%;
+  border-radius: 50%;
+  background: #1c2f2f;
+  z-index: 4;
+}
+
+.outer-dummy {
+  position: absolute;
+  width: 55%;
+  height: 55%;
+  top: 42%;
+  left: 45%;
+  border-radius: 50%;
+  background: #008d9a;
+  z-index: 4;
+}
+
+.inner-dummy {
+  position: absolute;
+  width: 75%;
+  height: 50%;
+  top: 25%;
+  left: 20%;
+  border-radius: 50%;
+  background: #00a4b3;
+  z-index: 5;
+}
+
+.dummy-ring {
+  position: absolute;
+  width: 90%;
+  height: 40%;
+  top: 40%;
+  left: 15%;
+  border-radius: 50%;
+  background: none;
+  border: #00bccd solid 3px;
+  z-index: 4;
+}
