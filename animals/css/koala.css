@@ -31,26 +31,22 @@ body {
   z-index: 2;
 }
 
-.ear-left {
+.ear-left, .ear-right {
   position: absolute;
   width: 60%;
   height: 65%;
-  left: -20%;
   top: 5%;
   background: #A6BECF;
   border-radius: 50%;
   z-index: 1;
 }
 
+.ear-left {
+  left: -20%;
+}
+
 .ear-right {
-  position: absolute;
-  width: 60%;
-  height: 65%;
   right: -20%;
-  top: 5%;
-  background: #A6BECF;
-  border-radius: 50%;
-  z-index: 1;
 }
 
 .inner-ear {
@@ -63,26 +59,22 @@ body {
   background: #819CAF;
 }
 
-.eye-left {
+.eye-left, .eye-right {
   position: absolute;
   background: white;
   width: 30%;
   height: 33%;
   top: 25%;
-  left: 21%;
   border-radius: 50%;
   z-index: 3;
 }
 
+.eye-left {
+  left: 21%;
+}
+
 .eye-right {
-  position: absolute;
-  background: white;
-  width: 30%;
-  height: 33%;
-  top: 25%;
   right: 21%;
-  border-radius: 50%;
-  z-index: 3;
 }
 
 .pupil {
@@ -106,10 +98,8 @@ body {
   z-index: 4;
 }
 
-.hair-left {
+.hair-left, .hair-right {
   position: absolute;
-  top: -8%;
-  left: 30%;
   width: 20%;
   height: 20%;
   background: #A6BECF;
@@ -117,13 +107,12 @@ body {
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
+.hair-left {
+  top: -8%;
+  left: 30%;
+}
+
 .hair-right{
-  position: absolute;
   top: -4%;
   left: 48%;
-  width: 20%;
- height: 20%;
- background:  #A6BECF;
- -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
