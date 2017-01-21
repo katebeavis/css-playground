@@ -38,7 +38,7 @@ body {
   top: -45%;
   right: -2%;
   position: absolute;
-  background: #ffea01;
+  background: #FFFF00;
   z-index: 3;
   -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
@@ -46,6 +46,62 @@ body {
   -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
   transform: rotate(20deg)
 }
+
+.dot1 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background-color: #ff7f7f;
+  border-radius: 50%;
+  top: 5%;
+  right: 30%;
+  z-index: 4;
+}
+
+.dot2 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background-color: #7f7fff;
+  border-radius: 50%;
+  top: 45%;
+  right: 35%;
+  z-index: 4;
+}
+
+.dot3 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background-color: #bf7fbf;
+  border-radius: 50%;
+  top: 65%;
+  left: 10%;
+  z-index: 4;
+}
+
+.dot4 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background-color: #7fbf7f;
+  border-radius: 50%;
+  top: 65%;
+  right: 10%;
+  z-index: 4;
+}
+
+.dot5 {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background-color: #ffd27f;
+  border-radius: 50%;
+  top: 30%;
+  left: 20%;
+  z-index: 4;
+}
+
 .ear-left {
   position: absolute;
   width: 40%;
